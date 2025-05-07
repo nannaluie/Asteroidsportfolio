@@ -1,0 +1,2 @@
+# Asteroidsportfolio
+Komponentbaserede systemer portfolio
