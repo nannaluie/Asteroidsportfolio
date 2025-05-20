@@ -6,7 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Bullet" />
+        <module name="Player" />
+        <module name="CommonEnemy" />
         <module name="Asteroids" />
+        <module name="Collision" />
+        <module name="CommonAsteroids" />
+        <module name="CommonBullet" />
+        <module name="Common" />
+        <module name="Core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -14,15 +22,7 @@
       <module name="AsteroidN" target="9" />
       <module name="AsteroidsLibGDX" target="11" />
       <module name="BulletN" target="22" />
-      <module name="Collision" target="9" />
-      <module name="Common" target="9" />
-      <module name="CommonAsteroids" target="9" />
-      <module name="CommonBullet" target="9" />
-      <module name="CommonEnemy" target="9" />
       <module name="CommonN" target="9" />
-      <module name="Core" target="11" />
-      <module name="Enemy" target="9" />
-      <module name="Player" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
