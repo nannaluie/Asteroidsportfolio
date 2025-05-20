@@ -1,2 +1,1 @@
-# Asteroidsportfolio
-Komponentbaserede systemer portfolio
+# SB4-KOM
