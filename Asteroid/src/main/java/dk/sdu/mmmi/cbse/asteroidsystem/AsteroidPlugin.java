@@ -25,14 +25,12 @@ public class AsteroidPlugin implements IGamePluginService {
 
     private Entity createAsteroid(GameData gameData) {
 
-
         Asteroid asteroid = new Asteroid();
         Random random = new Random();
         int size = random.nextInt(20) + 5;
         asteroid.setPolygonCoordinates(size, -size, -size, -size, -size, size, size, size);
-        // Mulig fejl hos asteroid med setX og setY - sæt evt. til 0
-        //asteroid.setX(random.nextInt());
-        //asteroid.setY(random.nextInt());
+        asteroid.setX(random.nextInt());
+        asteroid.setY(random.nextInt());
         asteroid.setX(0);
         asteroid.setY(0);
         asteroid.setRadius(size);
