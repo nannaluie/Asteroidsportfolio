@@ -19,7 +19,14 @@
         <option value="$PROJECT_DIR$/Player/pom.xml" />
         <option value="$PROJECT_DIR$/AsteroidsLibGDX/pom.xml" />
         <option value="$PROJECT_DIR$/Asteroids/pom.xml" />
+        <option value="$PROJECT_DIR$/ScoringSystem/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Asteroids/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonEnemy/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">

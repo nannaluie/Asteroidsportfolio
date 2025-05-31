@@ -8,21 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Bullet" />
         <module name="Player" />
-        <module name="CommonEnemy" />
-        <module name="Asteroids" />
         <module name="Collision" />
         <module name="CommonAsteroids" />
+        <module name="Enemy" />
         <module name="CommonBullet" />
         <module name="Common" />
         <module name="Core" />
+        <module name="ScoringSystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Asteroid" target="9" />
       <module name="AsteroidN" target="9" />
+      <module name="Asteroids" target="9" />
       <module name="AsteroidsLibGDX" target="11" />
       <module name="BulletN" target="22" />
+      <module name="CommonEnemy" target="9" />
       <module name="CommonN" target="9" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ScoringSystem" options="-parameters" />
+    </option>
   </component>
 </project>
